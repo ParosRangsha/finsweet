@@ -1,0 +1,46 @@
+.work{
+    padding: 126px 0;
+}
+.workDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.work img{
+    height: 50px;
+    width: 50px;
+}
+.project{
+    padding: 126px 0;
+}
+.project .projectHeading{
+    display: flex;
+    align-items: center;
+}
+.project .leftpart{
+    position: relative;
+}
+.project .rightpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.overflow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    opacity: 0;
+    background-color: rgba(50, 50, 100, 0.9);
+    color: #fff !important;
+    padding: 76px 48px;
+    transition: 1s;
+}
+.project .thumb{
+    position: relative;
+}
+.project .thumb:hover > .overflow{
+    width: 50%;
+    opacity: 1;
+}

@@ -1,0 +1,16 @@
+.banner{
+    padding: 126px 0;
+    background-color: #1C1E53;
+}
+.banner h1{
+    font-size: 54px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.banner p{
+    color: #fff;
+    margin-bottom: 48px;
+}
+.banner a{
+    color: #fff;
+}

@@ -1,0 +1,40 @@
+.footer{
+    background-color: #1C1E53;
+    color: #fff;
+    padding-top: 96px;
+}
+.footer img{
+    width: 122px;
+    height: 28px;
+}
+.footer p{
+    margin: 22px 0 86px;
+}
+.footer .contact{
+    background-color: #FCD980;
+    color: #000;
+    padding: 16px 36px;
+    display: flex;
+}
+.footer h2{
+    margin-bottom: 126px;
+}
+.footer .icon{
+    display: flex;
+    gap: 10px;
+}
+.footerNote{
+    padding: 32px 0;
+    background-color: #eed;
+}
+.footerNote ul{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+}
+.footerNote ul li a{
+    display: inline-block;
+    padding: 0 10px;
+    color: #000;
+}
