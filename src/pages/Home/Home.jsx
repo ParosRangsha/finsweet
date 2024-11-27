@@ -21,6 +21,7 @@ import MyBtn from '../../reuse/MyBtn'
 import Viewmore from '../../reuse/Viewmore'
 import Feature from '../../reuse/Feature'
 import Profile from '../../reuse/Profile'
+import Ask from '../../reuse/Ask'
 
 const Home = () => {
   return (
@@ -109,6 +110,20 @@ const Home = () => {
             <Col lg={{span:7, offset:1}}>
               <h4>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h4>
               <Profile img={profilepic} title="Jenny Wilson" desig="Vice President"/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="homeask">
+        <Container>
+          <Row>
+            <Col lg={4}>
+              <h2>Frequently asked questions</h2>
+              <Viewmore link="/faq" caption="Contact us for more info"/>
+            </Col>
+            <Col lg={8} className='myquestions'>
+              <Ask sl="01" heading="Frequently asked questions" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="02" heading="What is your class naming convention?" paragraph=""/>
             </Col>
           </Row>
         </Container>

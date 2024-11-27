@@ -86,3 +86,21 @@
     margin: 0;
     padding: 0;
 }
+.homeask{
+    padding: 126px 0;
+}
+.homeask .items{
+    display: flex;
+    justify-content: space-between;
+}
+.homeask .questions{
+    width: 80%;
+}
+.homeask .sl, .mybtn{
+    width: 10%;
+}
+.homeask .myquestions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
