@@ -1,26 +1,26 @@
-.work{
+.homework{
     padding: 126px 0;
 }
-.workDetails{
+.homework .workDetails{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.work img{
+.homework img{
     height: 50px;
     width: 50px;
 }
-.project{
+.homeproject{
     padding: 126px 0;
 }
-.project .projectHeading{
+.homeproject .projectHeading{
     display: flex;
     align-items: center;
 }
-.project .leftpart{
+.homeproject .leftpart{
     position: relative;
 }
-.project .rightpart{
+.homeproject .rightpart{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -36,11 +36,37 @@
     color: #fff !important;
     padding: 76px 48px;
     transition: 1s;
+    transform: scaleX(0);
 }
-.project .thumb{
+.homeproject .thumb{
     position: relative;
 }
-.project .thumb:hover > .overflow{
+.homeproject .thumb:hover > .overflow{
     width: 50%;
     opacity: 1;
+    transform: scaleX(1);
+}
+.homefeatures{
+    padding: 126px 0;
+}
+.homefeatures p{
+    text-align: center;
+}
+.homefeatures h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.homefeatures img{
+    width: 34px;
+    height: 34px;
+}
+.homefeatures .items{
+    padding: 58px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.homefeatures .items p{
+    text-align: justify;
 }

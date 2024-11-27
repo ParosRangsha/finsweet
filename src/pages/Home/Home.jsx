@@ -10,14 +10,21 @@ import Four from '../../img/pointFour.png'
 import cardOne from '../../img/projectcard1.png'
 import cardTwo from '../../img/projectcard2.png'
 import cardThree from '../../img/projectcard3.png'
+import ficonOne from '../../img/featureicon1.png'
+import ficonTwo from '../../img/featureicon2.png'
+import ficonThree from '../../img/featureicon3.png'
+import ficonFour from '../../img/featureicon4.png'
+import ficonFive from '../../img/featureicon5.png'
+import ficonSix from '../../img/featureicon6.png'
 import MyBtn from '../../reuse/MyBtn'
 import Viewmore from '../../reuse/Viewmore'
+import Feature from '../../reuse/Feature'
 
 const Home = () => {
   return (
     <>
       <Banner/>
-      <div className="work">
+      <div className="homework">
         <Container>
           <Row>
             <Col lg={5} className='workDetails'>
@@ -37,7 +44,7 @@ const Home = () => {
           </Row>
         </Container>
       </div>
-      <div className="project">
+      <div className="homeproject">
         <Container>
           <Row>
             <Col lg={6} className='projectHeading'>
@@ -69,6 +76,24 @@ const Home = () => {
               </div>
               
             </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="homefeatures">
+        <Container>
+          <p>Features</p>
+          <Row>
+            <Col lg={{span:6, offset:3}}>
+            <h2>Design that solves problems, one product at a time</h2>
+            </Col>
+          </Row>
+          <Row>
+            <Feature img={ficonOne} heading="Uses Client First" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
+            <Feature img={ficonTwo} heading="Two Free Revision Round" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
+            <Feature img={ficonThree} heading="Template Customization" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
+            <Feature img={ficonFour} heading="24/7 Support" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
+            <Feature img={ficonFive} heading="Quick Delivery" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
+            <Feature img={ficonSix} heading="Hands-on approach" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
           </Row>
         </Container>
       </div>
