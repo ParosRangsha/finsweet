@@ -9,7 +9,7 @@ import About from './pages/About/About';
 function App() {
   let multipage = createBrowserRouter(createRoutesFromElements(
     <Route element={<Layout/>}>
-      <Route path='/' element={<Home/>}></Route>
+      <Route index element={<Home/>}></Route>
       <Route path='/about' element={<About/>}></Route>
     </Route>
   ))
