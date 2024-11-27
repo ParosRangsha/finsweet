@@ -17,6 +17,8 @@ import ficonFour from '../../img/featureicon4.png'
 import ficonFive from '../../img/featureicon5.png'
 import ficonSix from '../../img/featureicon6.png'
 import profilepic from '../../img/profilethumb.png'
+import writting from '../../img/writting.png'
+
 import MyBtn from '../../reuse/MyBtn'
 import Viewmore from '../../reuse/Viewmore'
 import Feature from '../../reuse/Feature'
@@ -122,8 +124,28 @@ const Home = () => {
               <Viewmore link="/faq" caption="Contact us for more info"/>
             </Col>
             <Col lg={8} className='myquestions'>
-              <Ask sl="01" heading="Frequently asked questions" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-              <Ask sl="02" heading="What is your class naming convention?" paragraph=""/>
+              <Ask sl="01" heading="Frequently asked questions" btn="-" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="02" heading="What is your class naming convention?" btn="+" paragraph=""/>
+              <Ask sl="03" heading="How do you communicate?" btn="+" paragraph=""/>
+              <Ask sl="04" heading="I have a bigger project. Can you handle it?" btn="+" paragraph=""/>
+              <Ask sl="05" heading="What is your class naming convention?" btn="+" paragraph=""/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="homemessage">
+        <Container>
+          <Row>
+            <Col lg={6}>
+              <img src={writting} alt="writting" />
+            </Col>
+            <Col lg={6} className='form'>
+              <h3>Send Inquiry</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+              <input type="text" placeholder='Your Name'/>
+              <input type="text" placeholder='Email'/>
+              <input type="text" placeholder='Paste your Figma design URL'/>
+              <MyBtn link="/message" caption="Send Inquiry"/>
             </Col>
           </Row>
         </Container>

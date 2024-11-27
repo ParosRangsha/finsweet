@@ -92,15 +92,39 @@
 .homeask .items{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .homeask .questions{
     width: 80%;
 }
-.homeask .sl, .mybtn{
+.homeask .sl{
+    width: 10%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #99f;
+}
+.homeask .mybtn{
     width: 10%;
 }
 .homeask .myquestions{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.homemessage{
+    padding: 126px 0;
+}
+.homemessage .form{
+    padding: 96px;
+    background-color: #1C1E53;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.homemessage input{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 18px 32px;
+    border-radius: 8px;
 }

@@ -23,6 +23,7 @@ img{
   color: #fff;
   border-radius: 41px;
   transition: 1s;
+  text-align: center;
 }
 .btnContact:hover{
   background-color: #FCD980;

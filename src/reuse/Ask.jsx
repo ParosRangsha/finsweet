@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Ask = ({sl, heading, paragraph}) => {
+const Ask = ({sl, heading, paragraph, btn}) => {
   return (
     <div className="items">
         <div className="sl">{sl}</div>
@@ -8,7 +8,7 @@ const Ask = ({sl, heading, paragraph}) => {
             <h4>{heading}</h4>
             <p>{paragraph}</p>
         </div>
-        <div className="mybtn"><a href="#">-</a></div>
+        <div className="mybtn"><a href="#">{btn}</a></div>
     </div>
     )
 }
