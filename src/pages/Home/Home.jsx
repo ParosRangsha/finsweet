@@ -16,9 +16,11 @@ import ficonThree from '../../img/featureicon3.png'
 import ficonFour from '../../img/featureicon4.png'
 import ficonFive from '../../img/featureicon5.png'
 import ficonSix from '../../img/featureicon6.png'
+import profilepic from '../../img/profilethumb.png'
 import MyBtn from '../../reuse/MyBtn'
 import Viewmore from '../../reuse/Viewmore'
 import Feature from '../../reuse/Feature'
+import Profile from '../../reuse/Profile'
 
 const Home = () => {
   return (
@@ -94,6 +96,20 @@ const Home = () => {
             <Feature img={ficonFour} heading="24/7 Support" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
             <Feature img={ficonFive} heading="Quick Delivery" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
             <Feature img={ficonSix} heading="Hands-on approach" paragraph="Euismod faucibus turpis eu gravida mi. Pellentesque et velit aliquam sed faucib turpis eu gravida mi. Pellentesque et velit aliquam sed mi. "/>
+          </Row>
+        </Container>
+      </div>
+      <div className="homereview">
+        <Container>
+          <Row>
+            <Col lg={4}>
+              <h2>What our clients say about us</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+            </Col>
+            <Col lg={{span:7, offset:1}}>
+              <h4>"The best agency we’ve worked with so far. They understand our product and are able to add new features with a great focus."</h4>
+              <Profile img={profilepic} title="Jenny Wilson" desig="Vice President"/>
+            </Col>
           </Row>
         </Container>
       </div>

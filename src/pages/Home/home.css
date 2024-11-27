@@ -70,3 +70,19 @@
 .homefeatures .items p{
     text-align: justify;
 }
+.homereview{
+    padding: 126px 0;
+}
+.homereview .thumb{
+    height: 52px;
+    width: 52px;
+}
+.homereview .profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.homereview .profile h6, p{
+    margin: 0;
+    padding: 0;
+}
