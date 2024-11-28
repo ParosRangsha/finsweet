@@ -128,3 +128,15 @@
     padding: 18px 32px;
     border-radius: 8px;
 }
+.homeblog{
+    padding: 126px 0;
+}
+.homeblog h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.homeblog .item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

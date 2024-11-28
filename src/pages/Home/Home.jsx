@@ -18,12 +18,16 @@ import ficonFive from '../../img/featureicon5.png'
 import ficonSix from '../../img/featureicon6.png'
 import profilepic from '../../img/profilethumb.png'
 import writting from '../../img/writting.png'
+import blog1 from '../../img/business.png'
+import blog2 from '../../img/woman.png'
+import blog3 from '../../img/class.png'
 
 import MyBtn from '../../reuse/MyBtn'
 import Viewmore from '../../reuse/Viewmore'
 import Feature from '../../reuse/Feature'
 import Profile from '../../reuse/Profile'
 import Ask from '../../reuse/Ask'
+import Hblog from '../../reuse/Hblog'
 
 const Home = () => {
   return (
@@ -147,6 +151,16 @@ const Home = () => {
               <input type="text" placeholder='Paste your Figma design URL'/>
               <MyBtn link="/message" caption="Send Inquiry"/>
             </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="homeblog">
+        <Container>
+          <h2>Our Blog</h2>
+          <Row>
+            <Hblog img={blog1} heading="How one Webflow user grew his single person consultancy from $0-100K in 14 months" date="24 Nov 2024" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"/>
+            <Hblog img={blog2} heading="How one Webflow user grew his single person consultancy from $0-100K in 14 months" date="24 Nov 2024" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"/>
+            <Hblog img={blog3} heading="How one Webflow user grew his single person consultancy from $0-100K in 14 months" date="24 Nov 2024" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract"/>
           </Row>
         </Container>
       </div>
