@@ -8,7 +8,7 @@ const Ask = ({sl, heading, paragraph, btn}) => {
             <h4>{heading}</h4>
             <p>{paragraph}</p>
         </div>
-        <div className="mybtn"><a href="#">{btn}</a></div>
+        <div className="mybtn"><a href="#" className='plus'>+</a><a href="#" className='minus'>-</a></div>
     </div>
     )
 }

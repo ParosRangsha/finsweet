@@ -97,6 +97,24 @@
 .homeask .questions{
     width: 80%;
 }
+.homeask .items p{
+    display: none;
+}
+.homeask .items:hover p{
+    display: block;
+}
+.homeask .items .minus{
+    display: none;
+}
+.homeask .items:hover .minus{
+    display: block;
+}
+.homeask .items .plus{
+    display: block;
+}
+.homeask .items:hover .plus{
+    display: none;
+}
 .homeask .sl{
     width: 10%;
     font-size: 20px;

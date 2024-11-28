@@ -129,10 +129,10 @@ const Home = () => {
             </Col>
             <Col lg={8} className='myquestions'>
               <Ask sl="01" heading="Frequently asked questions" btn="-" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-              <Ask sl="02" heading="What is your class naming convention?" btn="+" paragraph=""/>
-              <Ask sl="03" heading="How do you communicate?" btn="+" paragraph=""/>
-              <Ask sl="04" heading="I have a bigger project. Can you handle it?" btn="+" paragraph=""/>
-              <Ask sl="05" heading="What is your class naming convention?" btn="+" paragraph=""/>
+              <Ask sl="02" heading="What is your class naming convention?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="03" heading="How do you communicate?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="04" heading="I have a bigger project. Can you handle it?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="05" heading="What is your class naming convention?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
             </Col>
           </Row>
         </Container>
