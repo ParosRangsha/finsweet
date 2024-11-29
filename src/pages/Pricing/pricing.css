@@ -1,0 +1,32 @@
+.pricing{
+    padding: 64px 0;
+}
+.pricing .box{
+    background-color: rgba(150, 150, 150, 0.5);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 1s;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+.pricing .box:hover{
+    background-color: #002;
+    color: #fff;
+}
+.pricing .box span{
+    font-size: 50px;
+    font-weight: 700;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.pricing ul{
+    width: 100%;
+    list-style: square;
+}

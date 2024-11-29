@@ -39,3 +39,46 @@
     font-size: 38px;
     font-weight: 600;
 }
+.featureask{
+    padding: 64px 0;
+}
+.featureask .items{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.featureask .questions{
+    width: 80%;
+}
+.featureask .items p{
+    display: none;
+}
+.featureask .items:hover p{
+    display: block;
+}
+.featureask .items .minus{
+    display: none;
+}
+.featureask .items:hover .minus{
+    display: block;
+}
+.featureask .items .plus{
+    display: block;
+}
+.featureask .items:hover .plus{
+    display: none;
+}
+.featureask .sl{
+    width: 10%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #99f;
+}
+.featureask .mybtn{
+    width: 10%;
+}
+.featureask .myquestions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

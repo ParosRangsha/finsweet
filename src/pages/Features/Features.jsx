@@ -3,6 +3,7 @@ import './features.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import Benefitbox from '../../reuse/Benefitbox'
 import Bannerreuse from '../../reuse/Bannerreuse'
+import Ask from '../../reuse/Ask'
 import featurebanner from "../../img/featurebanner.svg"
 import support from '../../img/support.png'
 import biconOne from '../../img/benefiticon1.png'
@@ -12,6 +13,7 @@ import reviewthumbOne from '../../img/explain1.png'
 import reviewthumbTwo from '../../img/explain2.png'
 import reviewthumbThree from '../../img/explain3.png'
 import reviewthumbFour from '../../img/explain4.png'
+import Viewmore from '../../reuse/Viewmore'
 
 const Features = () => {
   return (
@@ -80,6 +82,24 @@ const Features = () => {
           </Row>
         </Container>
       </div>
+      <div className="featureask">
+        <Container>
+          <Row>
+            <Col lg={4}>
+              <h2>Frequently asked questions</h2>
+              <Viewmore link="/faq" caption="Contact us for more info"/>
+            </Col>
+            <Col lg={8} className='myquestions'>
+              <Ask sl="01" heading="Frequently asked questions" btn="-" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="02" heading="What is your class naming convention?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="03" heading="How do you communicate?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="04" heading="I have a bigger project. Can you handle it?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <Ask sl="05" heading="What is your class naming convention?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
     </>
   )
 }
