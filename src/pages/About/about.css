@@ -74,3 +74,20 @@
 .aboutbenefit #support{
     margin-top: 30px;
 }
+.aboutteam{
+    padding: 126px 0;
+}
+.aboutteam .box{
+    padding: 48px 64px;
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 10px;
+}
+.aboutteam img{
+    margin-bottom: 20px;
+}
+.aboutteam h5{
+    text-align: center;
+}
+.aboutteam p{
+    text-align: center;
+}

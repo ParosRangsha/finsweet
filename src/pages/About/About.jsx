@@ -11,6 +11,11 @@ import biconOne from '../../img/benefiticon1.png'
 import biconTwo from '../../img/benefiticon2.png'
 import biconThree from '../../img/benefiticon3.png'
 import support from '../../img/support.png'
+import manOne from '../../img/man1.png'
+import manTwo from '../../img/man2.png'
+import manThree from '../../img/man3.png'
+import manFour from '../../img/man4.png'
+import Aboutman from '../../reuse/Aboutman'
 
 const About = () => {
   return (
@@ -117,6 +122,19 @@ const About = () => {
         </Row>
         <Row>
           <img src={support} alt="support" id='support'/>
+        </Row>
+      </Container>
+    </div>
+    <div className="aboutteam">
+      <Container>
+        <Row>
+          <h2>Meet our team</h2>
+        </Row>
+        <Row>
+          <Aboutman img={manOne} name="Protap Chandra" desig="Managing Director"/>
+          <Aboutman img={manTwo} name="Nafisur Rahman" desig="DGM"/>
+          <Aboutman img={manThree} name="Adiyat Ali" desig="AGM"/>
+          <Aboutman img={manFour} name="Antor Anjum" desig="Project Manager"/>
         </Row>
       </Container>
     </div>
