@@ -2,6 +2,7 @@ import React from 'react'
 import './footer.css'
 import logo from '../../img/logo.png'
 import { Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -43,12 +44,13 @@ const Footer = () => {
             </Col>
             <Col lg={6}>
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About us</a></li>
-                <li><a href="/features">Features</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/faq">FAQ</a></li>
-                <li><a href="/blog">Blog</a></li>
+                
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/features">Features</Link></li>
+                <li><Link to="/pricing">Pricing</Link></li>
+                <li><Link to="/faq">FAQ</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
               </ul>
             </Col>
 
