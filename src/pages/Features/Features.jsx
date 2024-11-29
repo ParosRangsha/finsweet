@@ -1,6 +1,6 @@
 import React from 'react'
 import './features.css'
-import { Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import Benefitbox from '../../reuse/Benefitbox'
 import Bannerreuse from '../../reuse/Bannerreuse'
 import featurebanner from "../../img/featurebanner.svg"
@@ -30,6 +30,17 @@ const Features = () => {
           <Benefitbox img={biconTwo} heading="Perfectly Responsive" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."/>
           <Benefitbox img={biconThree} heading="Friendly Support" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim."/>
         </Row>
+        </Container>
+      </div>
+      <div className="featureReview">
+        <Container>
+          <Row>
+            <Col lg={6}>
+              <h6>Use Client-first</h6>
+              <h3>Top agencies and freelancers around the world use Client-first </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </Col>
+          </Row>
         </Container>
       </div>
     </>

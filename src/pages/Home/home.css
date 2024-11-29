@@ -1,5 +1,5 @@
 .homework{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homework .workDetails{
     display: flex;
@@ -11,7 +11,7 @@
     width: 50px;
 }
 .homeproject{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homeproject .projectHeading{
     display: flex;
@@ -47,7 +47,7 @@
     transform: scaleX(1);
 }
 .homefeatures{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homefeatures p{
     text-align: center;
@@ -71,7 +71,7 @@
     text-align: justify;
 }
 .homereview{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homereview .thumb{
     height: 52px;
@@ -87,7 +87,7 @@
     padding: 0;
 }
 .homeask{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homeask .items{
     display: flex;
@@ -130,7 +130,7 @@
     gap: 20px;
 }
 .homemessage{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homemessage .form{
     padding: 96px;
@@ -147,7 +147,7 @@
     border-radius: 8px;
 }
 .homeblog{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .homeblog h2{
     margin-bottom: 30px;

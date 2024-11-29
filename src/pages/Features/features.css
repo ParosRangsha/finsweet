@@ -2,7 +2,7 @@
     padding: 64px 0;
 }
 .featurebenefit{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .featurebenefit h2{
     font-size: 38px;
@@ -23,4 +23,7 @@
 }
 .featurebenefit #support{
     margin-top: 30px;
+}
+.featureReview{
+    padding: 64px 0;
 }

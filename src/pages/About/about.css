@@ -1,5 +1,5 @@
 .aboutbanner{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .aboutbanner .bantext{
     display: flex;
@@ -14,7 +14,7 @@
     text-align: justify;
 }
 .aboutprocess{
-    padding: 126px 0;
+    padding: 64px 0;
     background-color: rgba(200, 200, 200, 0.2);
 }
 .aboutprocess .subhead{
@@ -40,7 +40,7 @@
     padding-bottom: 20px;
 }
 .aboutmission{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .aboutmission .txt{
     display: flex;
@@ -52,7 +52,7 @@
     font-weight: 600;
 }
 .aboutbenefit{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .aboutbenefit h2{
     font-size: 38px;
@@ -75,7 +75,7 @@
     margin-top: 30px;
 }
 .aboutteam{
-    padding: 126px 0;
+    padding: 64px 0;
 }
 .aboutteam .box{
     padding: 48px 64px;
