@@ -27,3 +27,15 @@
 .featureReview{
     padding: 64px 0;
 }
+.featureReview .frt{
+    margin-bottom: 64px;
+}
+.featureReview .reviewtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featureReview h3{
+    font-size: 38px;
+    font-weight: 600;
+}

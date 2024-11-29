@@ -8,6 +8,10 @@ import support from '../../img/support.png'
 import biconOne from '../../img/benefiticon1.png'
 import biconTwo from '../../img/benefiticon2.png'
 import biconThree from '../../img/benefiticon3.png'
+import reviewthumbOne from '../../img/explain1.png'
+import reviewthumbTwo from '../../img/explain2.png'
+import reviewthumbThree from '../../img/explain3.png'
+import reviewthumbFour from '../../img/explain4.png'
 
 const Features = () => {
   return (
@@ -34,10 +38,43 @@ const Features = () => {
       </div>
       <div className="featureReview">
         <Container>
-          <Row>
-            <Col lg={6}>
+          <Row className='frt'>
+            <Col lg={6} className='reviewtxt'>
               <h6>Use Client-first</h6>
               <h3>Top agencies and freelancers around the world use Client-first </h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </Col>
+            <Col lg={6}>
+              <img src={reviewthumbOne} alt="review thumb" />
+            </Col>
+          </Row>
+          <Row className='frt'>
+            <Col lg={6}>
+              <img src={reviewthumbTwo} alt="review thumb" />
+            </Col>
+            <Col lg={6} className='reviewtxt'>
+              <h6>Free Revision Rounds</h6>
+              <h3>Get free Revisions and one week of free maintenance</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </Col>
+          </Row>
+          <Row className='frt'>
+            <Col lg={6} className='reviewtxt'>
+              <h6>24/7 Support</h6>
+              <h3>Working with us, you will be getting 24/7 priority support</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            </Col>
+            <Col lg={6}>
+              <img src={reviewthumbThree} alt="review thumb" />
+            </Col>
+          </Row>
+          <Row className='frt'>
+            <Col lg={6}>
+              <img src={reviewthumbFour} alt="review thumb" />
+            </Col>
+            <Col lg={6} className='reviewtxt'>
+              <h6>Quick Delivery</h6>
+              <h3>Guranteed 1 week delivery for standard five pager website</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </Col>
           </Row>
