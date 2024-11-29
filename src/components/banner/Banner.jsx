@@ -3,6 +3,7 @@ import './banner.css'
 import homeBannerThumb from '../../img/homebannerthumb.png'
 import { Col, Container, Row } from 'react-bootstrap'
 import MyBtn from '../../reuse/MyBtn'
+import Viewmore from '../../reuse/Viewmore'
 
 const Banner = () => {
   return (
@@ -13,7 +14,7 @@ const Banner = () => {
                     <h1>Building stellar websites for early startups</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <MyBtn link="/contact" caption="Contact us"/>
-                    &nbsp;&nbsp;&nbsp;<a href="/pricing">View pricing <i class="fa-solid fa-arrow-right-long"></i></a>
+                    &nbsp;&nbsp;&nbsp; <Viewmore link="/pricing" caption="View pricing"/>
                 </Col>
                 <Col>
                     <img src={homeBannerThumb} alt="homebannerthumb" />
