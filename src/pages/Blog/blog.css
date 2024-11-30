@@ -13,3 +13,25 @@
     text-align: center;
     margin: 20px 0;
 }
+.blogitems{
+    padding: 64px 0;
+}
+.blogitems .box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(220, 220, 220, 0.5);
+    padding: 30px;
+    transition: 1s;
+}
+.blogitems .box:hover{
+    background-color: #002;
+    color: #fff;
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+}
+.blogitems .box:hover img{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #fff;
+}

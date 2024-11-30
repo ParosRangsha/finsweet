@@ -2,6 +2,13 @@ import React from 'react'
 import './blog.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import blogban from '../../img/blogban.png'
+import blogOne from '../../img/blog1.png'
+import blogTwo from '../../img/blog2.png'
+import blogThree from '../../img/blog3.png'
+import blogFour from '../../img/blog4.png'
+import blogFive from '../../img/blog5.png'
+import blogSix from '../../img/blog6.png'
+import Blogitems from '../../reuse/Blogitems'
 
 
 const Blog = () => {
@@ -33,13 +40,12 @@ const Blog = () => {
             <h2>Our Blog</h2>
           </Row>
           <Row>
-            <Col lg={4}>
-              <div className="box">
-                <div className="thumb">
-                  <img src="" alt="" />
-                </div>
-              </div>
-            </Col>
+            <Blogitems img={blogOne} date="20 Nov 2024" subhead="How one Webflow user grew his single person consultancy from $0-100K in 14 months" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" vlink="/blogtarget" vcaption="Read more"/>
+            <Blogitems img={blogTwo} date="20 Nov 2024" subhead="How one Webflow user grew his single person consultancy from $0-100K in 14 months" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" vlink="/blogtarget" vcaption="Read more"/>
+            <Blogitems img={blogThree} date="20 Nov 2024" subhead="How one Webflow user grew his single person consultancy from $0-100K in 14 months" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" vlink="/blogtarget" vcaption="Read more"/>
+            <Blogitems img={blogFour} date="20 Nov 2024" subhead="How one Webflow user grew his single person consultancy from $0-100K in 14 months" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" vlink="/blogtarget" vcaption="Read more"/>
+            <Blogitems img={blogFive} date="20 Nov 2024" subhead="How one Webflow user grew his single person consultancy from $0-100K in 14 months" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" vlink="/blogtarget" vcaption="Read more"/>
+            <Blogitems img={blogSix} date="20 Nov 2024" subhead="How one Webflow user grew his single person consultancy from $0-100K in 14 months" paragraph="See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract" vlink="/blogtarget" vcaption="Read more"/>
           </Row>
         </Container>
       </div>
