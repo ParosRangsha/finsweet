@@ -1,0 +1,34 @@
+.contact{
+    padding: 64px 0;
+    background-color: #002;
+    color: #fff;
+}
+.contact .myItem{
+    margin-bottom: 20px
+}
+.contact h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    padding-bottom: 64px;
+}
+.contact lable{
+    display: block;
+}
+.contact input{
+    width: 100%;
+    padding: 18px 32px;
+    border-radius: 8px
+}
+.contact textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border-radius: 8px;
+    min-width: 200px;
+    resize: none;
+    margin-bottom: 20px;
+}
