@@ -12,6 +12,7 @@ import Faq from './pages/Faq/Faq';
 import Pricing from './pages/Pricing/Pricing';
 import Contact from './pages/Contact/Contact';
 import Message from './popup/Message';
+import Readblog from './popup/readblog/Readblog';
 
 function App() {
   let multipage = createBrowserRouter(createRoutesFromElements(
@@ -24,6 +25,7 @@ function App() {
       <Route path='/blog' element={<Blog/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
       <Route path='/message' element={<Message/>}></Route>
+      <Route path='/blogtarget' element={<Readblog/>}></Route>
     </Route>
   ))
 

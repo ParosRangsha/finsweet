@@ -1,0 +1,21 @@
+.blogreadban{
+    padding: 64px 0
+}
+.blogreadban h2{
+    font-weight: 700;
+    text-align: center;
+}
+.blogreadban #subhead{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blogreadban #blogpara{
+    text-align: center;
+    margin: 20px 0;
+}
+.para{
+    padding: 64px 0;
+}
+.para .myPara{
+    margin-bottom: 30px;
+}
