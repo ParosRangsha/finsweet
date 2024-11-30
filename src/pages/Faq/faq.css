@@ -1,0 +1,22 @@
+.faq{
+    padding: 64px 0;
+}
+.faq h2{
+    font-weight: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.faq .btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px 20px;
+}
+.faq .btns p{
+    cursor: pointer;
+}
+.faq .faqpara{
+    padding: 10px 20px;
+}
