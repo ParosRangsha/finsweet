@@ -1,0 +1,15 @@
+.blogban{
+    padding: 64px 0
+}
+.blogban h2{
+    font-weight: 700;
+    text-align: center;
+}
+.blogban #subhead{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blogban #blogpara{
+    text-align: center;
+    margin: 20px 0;
+}
