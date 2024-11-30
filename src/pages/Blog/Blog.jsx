@@ -27,6 +27,22 @@ const Blog = () => {
           </Row>
         </Container>
       </div>
+      <div className="blogitems">
+        <Container>
+          <Row>
+            <h2>Our Blog</h2>
+          </Row>
+          <Row>
+            <Col lg={4}>
+              <div className="box">
+                <div className="thumb">
+                  <img src="" alt="" />
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   )
 }
