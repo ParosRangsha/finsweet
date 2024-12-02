@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './home.css'
 import { Col, Container, Row } from 'react-bootstrap'
 import Banner from '../../components/banner/Banner'
@@ -26,10 +26,28 @@ import MyBtn from '../../reuse/MyBtn'
 import Viewmore from '../../reuse/Viewmore'
 import Feature from '../../reuse/Feature'
 import Profile from '../../reuse/Profile'
-import Ask from '../../reuse/Ask'
 import Hblog from '../../reuse/Hblog'
 
 const Home = () => {
+  let [dek, setDek] = useState(0)
+  let changeOne = ()=>(
+    setDek(1)
+  )
+  let changeTwo = ()=>(
+    setDek(2)
+  )
+  let changeThree = ()=>(
+    setDek(3)
+  )
+  let changeFour = ()=>(
+    setDek(4)
+  )
+  let changeFive = ()=>(
+    setDek(5)
+  )
+  let changeZero = ()=>(
+    setDek(0)
+  )
   return (
     <>
       <Banner/>
@@ -128,11 +146,56 @@ const Home = () => {
               <Viewmore link="/faq" caption="Contact us for more info"/>
             </Col>
             <Col lg={8} className='myquestions'>
-              <Ask sl="01" heading="Frequently asked questions" btn="-" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-              <Ask sl="02" heading="What is your class naming convention?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-              <Ask sl="03" heading="How do you communicate?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-              <Ask sl="04" heading="I have a bigger project. Can you handle it?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
-              <Ask sl="05" heading="What is your class naming convention?" btn="+" paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+              <div className="items">
+                <div className="sl">01</div>
+                <div className="questions">
+                    <div className="heading">
+                      <h4>Frequently asked questions</h4>
+                      { dek === 1? <p onClick={changeZero} className='crossshow'>-</p> : <p onClick={changeOne} className='crossshow'>+</p>  }
+                    </div>
+                    {dek === 1 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
+                </div>
+              </div>
+              <div className="items">
+                <div className="sl">02</div>
+                <div className="questions">
+                    <div className="heading">
+                      <h4>What is your class naming convention?</h4>
+                      { dek === 2? <p onClick={changeZero} className='crossshow'>-</p> : <p onClick={changeTwo} className='crossshow'>+</p>  }
+                    </div>
+                    {dek === 2 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
+                </div>
+              </div>
+              <div className="items">
+                <div className="sl">03</div>
+                <div className="questions">
+                    <div className="heading">
+                      <h4>How do you communicate?</h4>
+                      { dek === 3? <p onClick={changeZero} className='crossshow'>-</p> : <p onClick={changeThree} className='crossshow'>+</p>  }
+                    </div>
+                    {dek === 3 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
+                </div>
+              </div>
+              <div className="items">
+                <div className="sl">04</div>
+                <div className="questions">
+                    <div className="heading">
+                      <h4>I have a bigger project. Can you handle it?</h4>
+                      { dek === 4? <p onClick={changeZero} className='crossshow'>-</p> : <p onClick={changeFour} className='crossshow'>+</p>  }
+                    </div>
+                    {dek === 4 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
+                </div>
+              </div>
+              <div className="items">
+                <div className="sl">05</div>
+                <div className="questions">
+                    <div className="heading">
+                      <h4>What is your class naming convention?</h4>
+                      { dek === 5? <p onClick={changeZero} className='crossshow'>-</p> : <p onClick={changeFive} className='crossshow'>+</p>  }
+                    </div>
+                    {dek === 5 && <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
+                </div>
+              </div>
             </Col>
           </Row>
         </Container>
