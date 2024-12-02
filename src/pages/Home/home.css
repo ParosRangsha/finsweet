@@ -95,28 +95,28 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .homeask .questions{
-    width: 80%;
+    width: 90%;
 }
-.homeask .items p{
-    display: none;
+.homeask .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.homeask .items:hover p{
-    display: block;
+.homeask .crossshow{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.homeask .items .minus{
-    display: none;
+.homeask .crossshow:hover{
+    background-color: #002;
+    color: #fff;
 }
-.homeask .items:hover .minus{
-    display: block;
-}
-.homeask .items .plus{
-    display: block;
-}
-.homeask .items:hover .plus{
-    display: none;
-}
+
 .homeask .sl{
-    width: 10%;
+    width: 5%;
     font-size: 20px;
     font-weight: 700;
     color: #99f;
