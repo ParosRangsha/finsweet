@@ -48,28 +48,29 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .featureask .questions{
-    width: 80%;
+    width: 90%;
 }
-.featureask .items p{
-    display: none;
+.featureask .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.featureask .items:hover p{
-    display: block;
+.featureask .crossshow{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
-.featureask .items .minus{
-    display: none;
+.featureask .crossshow:hover{
+    background-color: #002;
+    color: #fff;
 }
-.featureask .items:hover .minus{
-    display: block;
-}
-.featureask .items .plus{
-    display: block;
-}
-.featureask .items:hover .plus{
-    display: none;
-}
+
 .featureask .sl{
-    width: 10%;
+    width: 5%;
     font-size: 20px;
     font-weight: 700;
     color: #99f;
